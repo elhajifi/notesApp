@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial , sans-serif;
+}
+
+body {
+    background-color: #030231;
+}
+
+.container {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+            0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.noteTitleInput {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.addNoteBtn {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #EEEEEE;
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 30px solid #eafd27;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+            0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.noteTitle {
+    user-select: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+
+.closeBtn {
+    position: absolute;
+    bottom: 100%;
+    right: 0%;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.noteTextArea {
+    all: unset;
+}
+
+
+
+
+
